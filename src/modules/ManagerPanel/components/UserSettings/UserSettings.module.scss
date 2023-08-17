@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.toolsInput {
+  width: 200px;
+  font-size: 16px;
+  height: 30px;
+  border: 5px solid transparent;
+}
+
+.numberInput {
+  width: 50px;
+}
+
+.range {
+  width: 300px !important;
+  & div[class="range-slider__thumb"][data-lower] {
+    width: 0 !important;
+  }
+  & div[class="range-slider__range"] {
+    border-radius: 6px !important;
+  }
+}
